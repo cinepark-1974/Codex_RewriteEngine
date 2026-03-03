@@ -1,4 +1,4 @@
-# Romantic Kitchen Prompt Factory CLI
+# HASIRA Music Prompt Factory CLI
 
 Notion 데이터베이스(`Romantic Kitchen Prompt Factory`)에서 `Status=idea` 레코드를 읽어,
 Romantic Kitchen 전용 프롬프트 12개를 생성하고 점수화한 뒤,
