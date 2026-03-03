@@ -142,3 +142,22 @@ def generate_prompt_pack(
         prompts.append(build_music_prompt(spec))
 
     return prompts
+
+# Backward-compat for existing main.py import
+def generate_prompt_candidates(
+    keyword: str,
+    scene=None,
+    mood=None,
+    purpose=None,
+    tempo=None,
+    count: int = 12,
+):
+    return generate_prompt_pack(
+        keyword=keyword,
+        scene=scene,
+        mood=mood,
+        purpose=purpose,
+        tempo=tempo,
+        count=count,
+    )
+
