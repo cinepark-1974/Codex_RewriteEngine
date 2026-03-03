@@ -70,6 +70,7 @@ def build_music_prompt(spec: PromptSpec) -> str:
         "Romantic kitchen jazz instrumental.\n"
         f"Scene: {spec.scene}.\n"
         f"Mood: {spec.mood}.\n"
+        f"Purpose: {spec.purpose}.\n"
         f"Instruments: {spec.instruments}.\n"
         f"Rhythm: {spec.rhythm}.\n"
         f"Tempo: BPM {spec.bpm}.\n"
