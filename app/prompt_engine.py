@@ -147,11 +147,11 @@ def generate_prompt_pack(
 # Backward-compat for existing main.py import
 def generate_prompt_candidates(
     keyword: str,
+    total: int = 12,
     scene=None,
     mood=None,
     purpose=None,
     tempo=None,
-    count: int = 12,
 ):
     return generate_prompt_pack(
         keyword=keyword,
@@ -159,6 +159,5 @@ def generate_prompt_candidates(
         mood=mood,
         purpose=purpose,
         tempo=tempo,
-        count=count,
+        count=total,
     )
-
