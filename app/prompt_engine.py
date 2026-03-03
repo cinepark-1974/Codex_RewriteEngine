@@ -67,7 +67,7 @@ def _pick_bpm(rng: Tuple[int, int], i: int) -> int:
 def build_music_prompt(spec: PromptSpec) -> str:
     # Suno에 바로 붙여넣는 음악 디렉션 (시각 단어 없음)
     return (
-        "Romantic kitchen jazz instrumental.\n"
+        "Romantic kitchen classical music instrumental.\n"
         f"Scene: {spec.scene}.\n"
         f"Mood: {spec.mood}.\n"
         f"Purpose: {spec.purpose}.\n"
